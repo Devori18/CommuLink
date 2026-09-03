@@ -30,4 +30,5 @@ function haversine($lat1, $lon1, $lat2, $lon2) {
     $c = 2 * atan2(sqrt($a), sqrt(1 - $a));
     return $R * 2 * asin(sqrt($a));
     }
+}
 ?>
